@@ -2,7 +2,7 @@ import './app.css'
 function App() {
   return (
     <div className='img'>
-      <img src="/logo/MDlogo.png" alt="MD Logo" />
+      <img src="/Logo/MDlogo.png" alt="MD Logo" />
     </div>
   )
 }
