@@ -1,0 +1,16 @@
+/* Make the container take full screen and center the image */
+.img {
+  width: 100vw;        /* full viewport width */
+  height: 100vh;       /* full viewport height */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
+
+/* Keep image original size */
+.img img {
+  width: auto;
+  height: auto;
+  max-width: 100%;    /* optional: prevent overflow on small screens */
+  max-height: 100%;   /* optional: prevent overflow on small screens */
+}
